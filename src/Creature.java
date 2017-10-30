@@ -46,7 +46,7 @@ public class Creature {
         fullness -= 4;
         energy -= 6;
 
-        if (fullness > 15) {fullness = 15;}
+        if (energy > 15) {energy = 15;}
 
         print("This was so much fun! Let's do it again");
     }
