@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Game {
 
-    Scanner scanner = new Scanenr(System.in);
+    Scanner scanner = new Scanner(System.in);
     Creature creature;
 
     boolean userQuits = false;
