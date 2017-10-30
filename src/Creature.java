@@ -46,7 +46,7 @@ public class Creature {
         fullness -= 4;
         energy -= 6;
 
-        if (happiness > 15) {happiness = 15;}
+        if (fullness > 15) {fullness = 15;}
 
         print("This was so much fun! Let's do it again");
     }
@@ -63,11 +63,11 @@ public class Creature {
         }
 
         if (energy <= 6){
-            status += "Hmm, " + this.getName() + "is really tired.\n";
+            status += "Oh, " + this.getName() + "is really tired.\n";
         }
 
         if (fullness <= 6){
-            status += "Woops, " + this.getName() + "is super hungry.\n";
+            status += "Oh, " + this.getName() + "is super hungry.\n";
         }
 
         return status;
